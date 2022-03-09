@@ -18,7 +18,7 @@ type Config struct {
 
 func Load() *Config {
 	loaders := []backend.Backend{
-		file.NewOptionalBackend("/etc/openweather_exporter.yaml"),
+		file.NewOptionalBackend("/etc/weather_exporter.yaml"),
 		flags.NewBackend(),
 	}
 

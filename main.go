@@ -22,7 +22,7 @@ import (
 )
 
 func main() {
-	version := "0.0.9"
+	version := "0.0.10"
 	// Setup better logging
 	formatter := &log.TextFormatter{
 		FullTimestamp: true,

@@ -1,5 +1,5 @@
 [Unit]
-Description=Prometheus exporter for modem metrics
+Description=Prometheus exporter for weather metrics
 Requires=network-online.target
 After=network-online.target
 
